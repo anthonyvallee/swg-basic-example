@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="{% block lang %}{{ global.lang }}{% endblock %}">
+    <head>
+        {% include "./_meta.jinja" %}
+        {% block header %}{% endblock %}
+    </head>
+    <body>
+        {% block body %}{% endblock %}
+    </body>
+</html>
