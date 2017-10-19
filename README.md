@@ -4,6 +4,10 @@ Basic example teaching how to use gulp-swg minimally.
 The setup should be simple enough:
 
 ```bash
+# gulp-cli should be installed globally
+$ npm install -g gulp-cli
+
+# swg-basic-example installation
 $ npm install
 $ gulp
 ```
